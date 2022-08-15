@@ -1,0 +1,4 @@
+- source: project
+  quarto-pub:
+    - id: f4399ddd-8242-41ef-b63a-8dfa273c8d41
+      url: 'https://quartopub.com/sites/stephan-kadauke/intro-to-r-for-clinical-data-rmed2022'

@@ -1,0 +1,51 @@
+[
+  {
+    "objectID": "index.html",
+    "href": "index.html",
+    "title": "R/Medicine 101: Intro to R for Clinical Data",
+    "section": "",
+    "text": "This is the website for the R/Medicine 2022 pre-conference short course Introduction to R for Clinical Data.\nYou’ll learn about Quarto, a framework for reproducible data science, and how to perform essential data science tasks such as data import, visualization, transformation, and communication.\nFor the best experience, we suggest the following (none of the below are absolutely necessary!):\n\nIf available to you, use two monitors (or another two-screen setup such as a laptop and a tablet or two laptops).\nTo avoid issues caused by overzealous firewalls, you may want to connect from a personal (not work-issued) device using a non-work wireless network.\nPlease use a recent version of macOS or Windows - we have had issues with Linux.\nWe highly recommend you use the Google Chrome browser to access the RStudio Server training environment.\n\nThe entire course will be recorded and made available to registered R/Medicine 2022 conference participants for replay. To protect the privacy of participants, no breakouts, video feeds, or chats will be recorded. We also request that you refrain from recording or screen-grabbing any part of the course."
+  },
+  {
+    "objectID": "index.html#pre-work",
+    "href": "index.html#pre-work",
+    "title": "R/Medicine 101: Intro to R for Clinical Data",
+    "section": "Pre-work",
+    "text": "Pre-work\n\nEssential\n\nInstall the latest version of Zoom.\nInstall the latest version of Google Chrome.\nWe may need to use RStudio Cloud as a backup training environment. Please sign up for a free account here.\nJoin one of the two pre-course technology check sessions - details are in the pre-course email.\nWe want to provide a welcoming and supportive learning environment for everyone. To help us do so, please take a look at our code of conduct.\n\n\n\nOptional (but highly recommended)\n\nTo help us better understand our learners, please complete the pre-course survey. We appreciate it!\nInstall R and RStudio Desktop on your computer. We made video with step by step instructions for installing these on macOS (here) or Windows (here).\nYou may wish to download and/or print a copy of the course slides. PowerPoint slide decks are available here."
+  },
+  {
+    "objectID": "index.html#after-the-course",
+    "href": "index.html#after-the-course",
+    "title": "R/Medicine 101: Intro to R for Clinical Data",
+    "section": "After the course",
+    "text": "After the course\nIf you would like to practice with the materials from the course, go to the GitHub repository, and click the green button labeled “Code” to download the repository as a .ZIP file.\nTo install all the packages we used in the training environment, open RStudio and run the following command in the Console:\n\ninstall.packages(c(\n  \"tidyverse\",\n  \"rmarkdown\",\n  \"shiny\",\n  \"flexdashboard\",\n  \"plotly\",\n  \"DT\"\n))"
+  },
+  {
+    "objectID": "index.html#resources",
+    "href": "index.html#resources",
+    "title": "R/Medicine 101: Intro to R for Clinical Data",
+    "section": "Resources",
+    "text": "Resources\n\nR for Data Science (by Hadley Wickham and Garrett Grolemund)\n\nSolutions Manual (by Jeffrey Arnold)\n\nQuarto\nR Markdown: The Definitive Guide (by Yihui Xie, JJ Allaire, and Garrett Grolemund)\nFundamentals of Data Visualization (by Claus Wilke)\nRStudio Cheatsheets"
+  },
+  {
+    "objectID": "index.html#license",
+    "href": "index.html#license",
+    "title": "R/Medicine 101: Intro to R for Clinical Data",
+    "section": "License",
+    "text": "License\nAll of the material in this GitHub repository is copyrighted under the Creative Commons BY-SA 4.0 copyright to make the material easy to reuse. We encourage you to reuse it and adapt it for your own teaching as you like!"
+  },
+  {
+    "objectID": "index.html#acknowledgments",
+    "href": "index.html#acknowledgments",
+    "title": "R/Medicine 101: Intro to R for Clinical Data",
+    "section": "Acknowledgments",
+    "text": "Acknowledgments\n\nThis course draws from various sources, most notably Garrett Grolemund’s Welcome to the Tidyverse and Greg Wilson’s Teaching Tech Together. This site was built using Quarto."
+  },
+  {
+    "objectID": "about.html",
+    "href": "about.html",
+    "title": "About",
+    "section": "",
+    "text": "Stephan Kadauke, MD, PhD (he/him) is the Assistant Director of the Cell and Gene Therapy Lab in the Department of Pathology at the Children’s Hospital of Philadelphia. He leads the Cell and Gene Therapy DataOps group which builds and deploys predictive models and other data products for the care of children who receive bone marrow transplants and other cell therapies. Stephan developed a curriculum in Reproducible Clinical Data Analysis tailored for physicians and other healthcare professionals. He is passionate about ways to use data to improve the care of children.\n\nJoseph Rudolf, MD (he/him) is the Medical Director for the automated core laboratory at ARUP Laboratories in Salt Lake City, Utah. He earned his medical degree from the University of Washington School of Medicine in Seattle, Washington. He completed his residency training in Clinical Pathology and fellowship in Clinical Informatics at the Massachusetts General Hospital in Boston, Massachusetts. His clinical and research interests focus on the intersection of informatics and clinical operations including clinical decision support, utilization management, and reporting and analytics. He is also passionate about clinical process improvement and initiatives to support quality and safety.\n\nPatrick Mathias, MD, PhD (he/him) is the Associate Medical Director of the Informatics Division in the Department of Laboratory Medicine at the University of Washington School of Medicine. His interests include developing data science and analytics as a core competency to improve clinical lab operations and laboratory stewardship, and applying clinical informatics approaches to mitigate laboratory-associated diagnostic errors. He is interested in developing and improving programming and data science education across all levels of pathology practice."
+  }
+]

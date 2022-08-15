@@ -1,0 +1,26 @@
+project:
+  type: website
+
+website:
+  title: "R/Medicine 101: Intro to R for Clinical Data"
+  navbar:
+    logo: "images/rmedhex-white.png"
+    left:
+      - href: index.qmd
+        text: Home
+      - href: about.qmd
+        text: About
+    right:
+      - text: "R/Medicine 2022"
+        href: https://r-medicine.org
+      - icon: github
+        href: https://github.com/skadauke/intro-to-r-for-clinical-data-rmed2022
+        aria-label: GitHub
+
+format:
+  html:
+    theme: flatly
+    css: styles.css
+    toc: true
+
+
