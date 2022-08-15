@@ -1,0 +1,54 @@
+---
+title: "Transform Data"
+---
+
+## select()
+
+```{r select}
+select(covid_testing, mrn, last_name)   # select columns to keep
+```
+
+
+## filter()
+
+```{r}
+filter(covid_testing, mrn == 5000078)  # filter to specific rows
+```
+
+## %>%
+
+```{r}
+covid_testing %>% 
+	filter(pan_day <= 10) %>% 
+	select(clinic_name)
+```
+
+
+## mutate()
+
+```{r}
+covid_testing %>%
+	mutate(c_r_tat_mins = col_rec_tat*60)
+```
+
+
+## Your Turn 1
+
+Use select, filter and %>% in the following chunk to write a sequence of functions that: 
+
+1. Filters to tests from the clinic (`clinic_name`) of "picu"
+
+2. Selects the column with the received-to-verified turnaround time (`rec_ver_tat`) as well as the day from start of the pandemic (`pan_day`)
+
+```{r Your Turn}
+_________ %>% # name of data goes here
+  filter(_______) %>% 
+  select(________, ________) 
+```
+
+Use mutate with %>% to create a new column named "total_tat" containing the total turnaround time for each test (sum of `col_rec_tat` and `rec_ver_tat`).
+
+```{r}
+________ %>%
+	mutate(total_tat = ________)
+```

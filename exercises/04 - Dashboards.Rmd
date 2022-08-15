@@ -1,0 +1,33 @@
+---
+title: "COVID-19 Dashboard"
+output: 
+  flexdashboard::flex_dashboard:
+    orientation: columns
+---
+
+```{r setup, include=FALSE}
+library(flexdashboard)
+library(tidyverse)
+library(plotly)
+covid_testing <- read_csv("covid_testing.csv")
+```
+
+Column
+-----------------------------------------------------------------------
+
+### Test Volumes Over Time
+
+```{r, fig.width=10}
+ggplot(data = covid_testing, mapping = aes(x = pan_day)) +
+  geom_histogram(binwidth = 1)
+```
+
+Column
+-----------------------------------------------------------------------
+
+### Details of Positive Test Results
+
+```{r}
+covid_testing %>%
+  select(mrn, gender, pan_day, clinic_name, result, age)
+```
