@@ -49,7 +49,7 @@ The entire course will be recorded and made available to registered R/Medicine 2
 
 -   To help us better understand our learners, please complete the [pre-course survey](https://bit.ly/rmed2020-101-pre). We appreciate it!
 -   Install [R](https://cloud.r-project.org/) and [RStudio Desktop](https://rstudio.com/products/rstudio/download/) on your computer. We made video with step by step instructions for installing these on macOS ([here](https://www.youtube.com/watch?v=GM88tYlEy_g)) or Windows ([here](https://www.youtube.com/watch?v=JRKmZK5-6aE)).
--   You may wish to download and/or print a copy of the course slides. PowerPoint slide decks are available [here](https://github.com/skadauke/intro-to-r-for-clinicians-rmed2020/tree/master/slides).
+-   You may wish to download and/or print a copy of the course slides. PowerPoint slide decks are available [here](https://github.com/skadauke/intro-to-r-for-clinical-data-rmed2022/tree/main/slides).
 
 ## After the course
 
