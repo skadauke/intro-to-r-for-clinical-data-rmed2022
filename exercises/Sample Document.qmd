@@ -1,0 +1,25 @@
+---
+title: "My Markdown Document"
+format: html
+editor: visual
+---
+
+# Large Header
+
+## Smaller Header
+
+Here is some text.
+
+-   It's easy to make a list
+-   Text can be styled as *cursive* or **bold**
+
+```{r}
+x <- rnorm(100)
+summary(x)
+```
+
+## Including Plots
+
+```{r, echo=FALSE}
+hist(x)
+```
