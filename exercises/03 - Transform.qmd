@@ -16,18 +16,18 @@ select(covid_testing, mrn, last_name)   # select columns to keep
 filter(covid_testing, mrn == 5000078)  # filter to specific rows
 ```
 
-## Pipes: \|\>
+## Pipes: %\>%
 
 ```{r}
-covid_testing  |> 
-	filter(pan_day <= 10) |> 
+covid_testing %>% 
+	filter(pan_day <= 10) %>% 
 	select(clinic_name)
 ```
 
 ## mutate( )
 
 ```{r}
-covid_testing |>
+covid_testing %>%
 	mutate(c_r_tat_mins = col_rec_tat*60)
 ```
 
@@ -40,15 +40,15 @@ a\) Filters to tests from the clinic (\`clinic_name\`) of "picu"
 b\) Selects the column with the received-to-verified turnaround time (\`rec_ver_tat\`) as well as the day from start of the pandemic (\`pan_day\`)
 
 ```{r}
-_________ |> # name of data frame goes here
-  filter(_______) |> 
+_________ %>% # name of data frame goes here
+  filter(_______) %>% 
   select(________, ________) 
 ```
 
-Use mutate with \|\> to create a new column named "total_tat" containing the total turnaround time for each test (sum of \`col_rec_tat\` and \`rec_ver_tat\`). Store this output in the covid_testing object and view the data in a new tab by calling the object with the View( ) function.
+Use mutate with %\>% to create a new column named "total_tat" containing the total turnaround time for each test (sum of \`col_rec_tat\` and \`rec_ver_tat\`). Store this output in the covid_testing object and view the data in a new tab by calling the object with the View( ) function.
 
 ```{r}
-________ <- ________ |>
+________ <- ________ %>%
 	mutate(total_tat = ________)
 View(________)
 ```
@@ -68,8 +68,8 @@ The function to calculate a median is (predictably) median(...).
 Store the output from your summarization in a new object called covid_summary.
 
 ```{r}
-covid_summary <- ________ |>
-  group_by(________) |>
+covid_summary <- ________ %>%
+  group_by(________) %>%
   summarize(num_orders = ________,
             median_tat = ________)
 View(covid_summary)
